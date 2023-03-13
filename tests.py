@@ -1,3 +1,5 @@
+"""Fonctions de test"""
+
 def test_equality():
     assert True
 
