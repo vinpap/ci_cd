@@ -21,6 +21,7 @@ jobs:
         # Setup which version of Python to use
       - name: Set Up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
+        uses: actions/checkout@v2
         with:
           python-version: ${{ matrix.python-version }}
         # Display the Python version being used
